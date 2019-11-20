@@ -1,3 +1,4 @@
+@ -1,49 +0,0 @@
 @-moz-viewport { width: device-width; scale: 1; }
 @-ms-viewport { width: device-width; scale: 1; }
 @-o-viewport { width: device-width; scale: 1; }
@@ -20,30 +21,88 @@ html {
 
 article {
   max-width: 43em;
+  margin-right: 1rem;
 }
 
 article h1 {
   font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 1rem;
+  padding-top: .5em;
 }
 
 article header {
   border-bottom: 1px solid #999;
+  padding-bottom: 1rem;
+  padding-left: .60em;
 }
 
 article header p {
   font-style: italic;
+  line-height: 0;
+  font-size: .90em;
+  padding-top: 0;
+  margin-right: 5em
+  padding-left: 0;
+
 }
 
 article > p:last-child {
   border-bottom: 1px solid #999;
+  padding-left: .60rem;
+  padding-bottom: 1rem;
 }
 
+article > p:nth-child(2) {
+  padding-left: .60rem;
+  padding-right: 1rem;
+  line-height: 1.1rem;
+
+}
+
+article > p:nth-child(3) {
+  padding-left: .60rem;
+}
+
+article > p:nth-child(4) {
+  padding-left: .60rem;
+}
+
+article > p:nth-child(5) {
+  padding-left: .60rem;
+}
+
+article > p:nth-child(6) {
+  padding-left: .60rem;
+}
+
+
 blockquote {
-  max-width: 24em;
+  margin: 0;
   color: #555;
-  font-size: 1.125rem;
+  padding-left: .60rem;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+blockquote p {
+  font-size: 1.1rem;
+  margin-top: 0;
+  margin-bottom: -0;
 }
 
 .quote {
   color: #999;
+}
+
+p {
+  padding-top: .5em;
+  line-height: 1.3em;
+  font-size: .96rem;
+}
+
+ol {
+  line-height: 1.2rem;
+  padding-left: 1.5rem;
+  font-size: .96rem;
 }
